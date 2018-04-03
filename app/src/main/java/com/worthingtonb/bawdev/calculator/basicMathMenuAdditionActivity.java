@@ -1,0 +1,13 @@
+package com.worthingtonb.bawdev.calculator;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class basicMathMenuAdditionActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_basic_math_menu_addition);
+    }
+}
